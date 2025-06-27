@@ -1,0 +1,16 @@
+{
+  "name": "tv-guide",
+  "version": "1.0.0",
+  "main": "capture-html.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jsdom": "^26.1.0",
+    "puppeteer": "^24.10.2"
+  }
+}

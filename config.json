@@ -1,0 +1,31 @@
+{
+  "sites": [
+    {
+      "TCM": {
+        "url": "https://www.tcm.com/schedule",
+        "parentSelector": ".listAiring",
+        "timeSelector": ".airing-time, .timeDisplay div",
+        "nameSelector": ".listing-title",
+        "detailsSelector": ".listing-metadata"
+      }
+    },
+    {
+      "TVO": {
+        "url": "https://www.tvo.org/schedule",
+        "parentSelector": ".jss307 [class^=\"MuiAccordionSummary\"]",
+        "timeSelector": "[class^=\"MuiAccordionSummary-content\"] > [class^=\"MuiTypography-root\"]",
+        "nameSelector": "[class^=\"MuiAccordionSummary-content\"] > div > h3[class^=\"MuiTypography-root\"]",
+        "detailsSelector": "[class^=\"MuiAccordionSummary-content\"] > div > div[class^=\"MuiTypography-root\"]"
+      }
+    },
+    {
+      "NHK": {
+        "url": "https://www3.nhk.or.jp/nhkworld/en/tv/",
+        "parentSelector": ".c-tv-live-schedule-list-item",
+        "timeSelector": ".c-tv-live-schedule-list-item__time",
+        "nameSelector": ".c-tv-live-schedule-list-item__title",
+        "detailsSelector": ".c-tv-live-schedule-list-item__description"
+      }
+    }
+  ]
+}
