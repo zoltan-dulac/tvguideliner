@@ -1,0 +1,13 @@
+{
+  "sites": [
+    {
+      "CBC Toronto": {
+        "url": "https://www.ontvtonight.com/ca/guide/listings/channel/69041248/cbc-toronto.html",
+        "parentSelector": "table tbody tr",
+        "timeSelector": "td[width='110']",
+        "nameSelector": "td h5.thin a",
+        "detailsSelector": "td h6"
+      }
+    }
+  ]
+}

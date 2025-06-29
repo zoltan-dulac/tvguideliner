@@ -11,6 +11,7 @@
   "description": "",
   "dependencies": {
     "jsdom": "^26.1.0",
+    "luxon": "^3.6.1",
     "puppeteer": "^24.10.2"
   }
 }

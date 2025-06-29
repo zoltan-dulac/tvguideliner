@@ -10,21 +10,263 @@
       }
     },
     {
-      "TVO": {
-        "url": "https://www.tvo.org/schedule",
-        "parentSelector": ".jss307 [class^=\"MuiAccordionSummary\"]",
-        "timeSelector": "[class^=\"MuiAccordionSummary-content\"] > [class^=\"MuiTypography-root\"]",
-        "nameSelector": "[class^=\"MuiAccordionSummary-content\"] > div > h3[class^=\"MuiTypography-root\"]",
-        "detailsSelector": "[class^=\"MuiAccordionSummary-content\"] > div > div[class^=\"MuiTypography-root\"]"
-      }
-    },
-    {
       "NHK": {
         "url": "https://www3.nhk.or.jp/nhkworld/en/tv/",
         "parentSelector": ".c-tv-live-schedule-list-item",
         "timeSelector": ".c-tv-live-schedule-list-item__time",
         "nameSelector": ".c-tv-live-schedule-list-item__title",
         "detailsSelector": ".c-tv-live-schedule-list-item__description"
+      }
+    },
+    {
+      "Comet": {
+        "url": "https://comettv.com/schedule/",
+        "parentSelector": ".swiper-schedule .single-show",
+        "timeSelector": ".time",
+        "nameSelector": ".title",
+        "detailsSelector": ".description",
+        "timezone": "America/Los_Angeles"
+      }
+    },
+    {
+      "CityTV": {
+        "url": "https://www.ontvtonight.com/ca/guide/listings/channel/69030222/citytv-toronto-hdtv.html",
+        "parentSelector": "table tbody tr",
+        "timeSelector": "td[width='110']",
+        "nameSelector": "td h5.thin a",
+        "detailsSelector": "td h6"
+      }
+    },
+    {
+      "Global": {
+        "url": "https://www.ontvtonight.com/ca/guide/listings/channel/69041403/global-ontariociii.html",
+        "parentSelector": "table tbody tr",
+        "timeSelector": "td[width='110']",
+        "nameSelector": "td h5.thin a",
+        "detailsSelector": "td h6"
+      }
+    },
+    {
+      "CBC": {
+        "url": "https://www.ontvtonight.com/ca/guide/listings/channel/69041248/cbc-toronto.html",
+        "parentSelector": "table tbody tr",
+        "timeSelector": "td[width='110']",
+        "nameSelector": "td h5.thin a",
+        "detailsSelector": "td h6"
+      }
+    },
+    {
+      "CTV": {
+        "url": "https://www.ontvtonight.com/ca/guide/listings/channel/69022514/ctv-toronto",
+        "parentSelector": "table tbody tr",
+        "timeSelector": "td[width='110']",
+        "nameSelector": "td h5.thin a",
+        "detailsSelector": "td h6"
+      }
+    },
+    {
+      "My9TV": {
+        "url": "https://www.ontvtonight.com/guide/listings/channel/1714280525/my-9.html",
+        "parentSelector": "table tbody tr",
+        "timeSelector": "td[width='110']",
+        "nameSelector": "td h5.thin a",
+        "detailsSelector": "td h6"
+      }
+    },
+    {
+      "METV": {
+        "url": "https://www.ontvtonight.com/ca/guide/listings/channel/69026033/whec-metv.html",
+        "parentSelector": "table tbody tr",
+        "timeSelector": "td[width='110']",
+        "nameSelector": "td h5.thin a",
+        "detailsSelector": "td h6"
+      }
+    },
+    {
+      "Oxygen": {
+        "url": "https://www.ontvtonight.com/ca/guide/listings/channel/12622924350/wvtt-oxygen-true-crime.html",
+        "parentSelector": "table tbody tr",
+        "timeSelector": "td[width='110']",
+        "nameSelector": "td h5.thin a",
+        "detailsSelector": "td h6"
+      }
+    },
+    {
+      "ION": {
+        "url": "https://www.ontvtonight.com/ca/guide/listings/channel/69034001/wpxj-hdtv.html",
+        "parentSelector": "table tbody tr",
+        "timeSelector": "td[width='110']",
+        "nameSelector": "td h5.thin a",
+        "detailsSelector": "td h6"
+      }
+    },
+    {
+      "BBC1": {
+        "url": "https://www.bbc.co.uk/schedules/p00fzl6p",
+        "parentSelector": ".broadcast",
+        "timeSelector": ".broadcast__time",
+        "nameSelector": ".programme__title",
+        "detailsSelector": ".programme__subtitle, .programme__synopsis",
+        "timezone": "Europe/London"
+      }
+    },
+    {
+      "BBC2": {
+        "url": "https://www.bbc.co.uk/schedules/p00fzl97",
+        "parentSelector": ".broadcast",
+        "timeSelector": ".broadcast__time",
+        "nameSelector": ".programme__title",
+        "detailsSelector": ".programme__subtitle, .programme__synopsis",
+        "timezone": "Europe/London"
+      }
+    },
+    {
+      "BBC3": {
+        "url": "https://www.bbc.co.uk/schedules/p00fzl95",
+        "parentSelector": ".broadcast",
+        "timeSelector": ".broadcast__time",
+        "nameSelector": ".programme__title",
+        "detailsSelector": ".programme__subtitle, .programme__synopsis",
+        "timezone": "Europe/London"
+      }
+    },
+    {
+      "BBC4": {
+        "url": "https://www.bbc.co.uk/schedules/p00fzl6b",
+        "parentSelector": ".broadcast",
+        "timeSelector": ".broadcast__time",
+        "nameSelector": ".programme__title",
+        "detailsSelector": ".programme__subtitle, .programme__synopsis",
+        "timezone": "Europe/London"
+      }
+    },
+    {
+      "BBCWorld": {
+        "url": "https://www.bbc.co.uk/schedules/p00fzl9p",
+        "parentSelector": ".broadcast",
+        "timeSelector": ".broadcast__time",
+        "nameSelector": ".programme__title",
+        "detailsSelector": ".programme__subtitle, .programme__synopsis",
+        "timezone": "Europe/London"
+      }
+    },
+    {
+      "MTVClassic": {
+        "url": "https://www.tvinsider.com/network/mtv-classic/schedule/",
+        "parentSelector": ".show-grid .show-upcoming",
+        "timeSelector": ".top-element time",
+        "nameSelector": "h3, h4",
+        "detailsSelector": "h6"
+      }
+    },
+    {
+      "ABC": {
+        "url": "https://www.tvinsider.com/network/abc/schedule/",
+        "parentSelector": ".show-grid .show-upcoming",
+        "timeSelector": ".top-element time",
+        "nameSelector": "h3, h4",
+        "detailsSelector": "h6"
+      }
+    },
+    {
+      "NBC": {
+        "url": "https://www.tvinsider.com/network/nbc/schedule/",
+        "parentSelector": ".show-grid .show-upcoming",
+        "timeSelector": ".top-element time",
+        "nameSelector": "h3, h4",
+        "detailsSelector": "h6"
+      }
+    },
+    {
+      "CBS": {
+        "url": "https://www.tvinsider.com/network/cbs/schedule/",
+        "parentSelector": ".show-grid .show-upcoming",
+        "timeSelector": ".top-element time",
+        "nameSelector": "h3, h4",
+        "detailsSelector": "h6"
+      }
+    },
+    {
+      "FOXNY": {
+        "url": "https://www.tvpassport.com/tv-listings/stations/fox-wnyw-new-york-ny-hd/4557",
+        "parentSelector": ".station-listings .list-group-item",
+        "timeSelector": "time",
+        "nameSelector": "strong",
+        "detailsSelector": "p + p"
+      }
+    },
+    {
+      "DW": {
+        "url": "https://www.tvpassport.com/tv-listings/stations/dw-english/426",
+        "parentSelector": ".station-listings .list-group-item",
+        "timeSelector": "time",
+        "nameSelector": "strong",
+        "detailsSelector": "p + p"
+      }
+    },
+    {
+      "TVLand": {
+        "url": "https://www.tvpassport.com/tv-listings/stations/tv-land-eastern/1252",
+        "parentSelector": ".station-listings .list-group-item",
+        "timeSelector": "time",
+        "nameSelector": "strong",
+        "detailsSelector": "p + p"
+      }
+    },
+    {
+      "FXMovie": {
+        "url": "https://www.tvpassport.com/tv-listings/stations/fx-movie-channel/1308",
+        "parentSelector": ".station-listings .list-group-item",
+        "timeSelector": "time",
+        "nameSelector": "strong",
+        "detailsSelector": "p + p"
+      }
+    },
+    {
+      "TBS": {
+        "url": "https://www.tvpassport.com/tv-listings/stations/tbs-east/61",
+        "parentSelector": ".station-listings .list-group-item",
+        "timeSelector": "time",
+        "nameSelector": "strong",
+        "detailsSelector": "p + p"
+      }
+    },
+    {
+      "TVO": {
+        "url": "https://www.tvpassport.com/tv-listings/stations/tvo-tv-ontario/18",
+        "parentSelector": ".station-listings .list-group-item",
+        "timeSelector": "time",
+        "nameSelector": "strong",
+        "detailsSelector": "p + p"
+      }
+    },
+    {
+      "RTE1": {
+        "url": "https://www.rte.ie/entertainment/listings/television/#/rte1/2025-06-28/full",
+        "parentSelector": "[role='programme listing']",
+        "timeSelector": ".time",
+        "nameSelector": "[aria-label='Programme']",
+        "detailsSelector": ".description .details",
+        "timezone": "Europe/Dublin"
+      }
+    },
+    {
+      "RTE2": {
+        "url": "https://www.rte.ie/entertainment/listings/television/#/rte2/2025-06-28/full",
+        "parentSelector": "[role='programme listing']",
+        "timeSelector": ".time",
+        "nameSelector": "[aria-label='Programme']",
+        "detailsSelector": ".description .details",
+        "timezone": "Europe/Dublin"
+      }
+    },{
+      "Channel4": {
+        "url": "https://www.rte.ie/entertainment/listings/television/#/channel4/2025-06-28/full",
+        "parentSelector": "[role='programme listing']",
+        "timeSelector": ".time",
+        "nameSelector": "[aria-label='Programme']",
+        "detailsSelector": ".description .details",
+        "timezone": "Europe/Dublin"
       }
     }
   ]
